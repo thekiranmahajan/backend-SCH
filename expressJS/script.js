@@ -13,7 +13,7 @@ app.get("/contact", function (req, res) {
 });
 
 app.get("/profile", function (req, res) {
-  res.render("Profile Page");
+  res.render("profile");
 });
 
 app.get("/profile/:username", function (req, res) {
